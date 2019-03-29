@@ -16,8 +16,8 @@ import org.springframework.data.redis.serializer.RedisSerializationContext;
  * @author honorstone
  * @date 2019/3/7 17:41
  */
-@Configuration
-@ConfigurationProperties(prefix = "spring.cache.redis")
+//@Configuration
+//@ConfigurationProperties(prefix = "spring.cache.redis")
 public class RedisCacheConfig {
 
     /**

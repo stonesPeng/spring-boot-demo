@@ -1,0 +1,13 @@
+
+
+server:
+  port: 8001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://peer1:8000/eureka/
+  instance:
+    hostname: peer2
+spring:
+  profiles:
+    active: peer2

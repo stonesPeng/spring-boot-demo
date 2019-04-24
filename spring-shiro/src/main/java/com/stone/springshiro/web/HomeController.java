@@ -19,7 +19,6 @@ public class HomeController {
         return"/index";
     }
 
-
     @RequestMapping("/login")
     public String login(HttpServletRequest request, Map<String,Object> map){
         System.out.println("HomeController.login()");

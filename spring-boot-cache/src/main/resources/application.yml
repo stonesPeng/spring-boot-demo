@@ -13,6 +13,8 @@ spring:
         min-idle: 2
         max-wait: -1ms
     database: 1
+    redisson:
+      url:redis://127.0.0.1:6379
   cache:
     redis:
       cache-null-values: false

@@ -24,7 +24,8 @@ public class SysRole implements Serializable {
     @JoinTable(
             name="SysUserRole",
             joinColumns={@JoinColumn(name="roleId")},
-            inverseJoinColumns={@JoinColumn(name="uid")})
+            inverseJoinColumns={@JoinColumn(name="uid")}
+            )
     private List<UserInfo> userInfos;
 
     @ManyToMany(fetch= FetchType.EAGER)

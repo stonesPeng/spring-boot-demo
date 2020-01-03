@@ -25,6 +25,7 @@
         <module>spring-shiro</module>
         <module>spring-boot-docker</module>
         <module>spring-boot-keep</module>
+        <module>spring-boot-zookeeper</module>
     </modules>
 
     <dependencies>
